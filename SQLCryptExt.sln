@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCryptExt", "SQLCryptExt\SQLCryptExt.csproj", "{4A5FBACD-4FA7-4CCF-94BC-B41CE13BEE97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCryptExt.Tests", "SQLCryptExt.Test\SQLCryptExt.Tests.csproj", "{F8358D0F-67B8-446E-A64C-C609DBAD620D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL2017_KeyAsm", "SQL2017_KeyAsm\SQL2017_KeyAsm.sqlproj", "{47A2AA6F-0904-431C-89EE-892B8E3C17C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{4A5FBACD-4FA7-4CCF-94BC-B41CE13BEE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A5FBACD-4FA7-4CCF-94BC-B41CE13BEE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A5FBACD-4FA7-4CCF-94BC-B41CE13BEE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8358D0F-67B8-446E-A64C-C609DBAD620D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8358D0F-67B8-446E-A64C-C609DBAD620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8358D0F-67B8-446E-A64C-C609DBAD620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8358D0F-67B8-446E-A64C-C609DBAD620D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A2AA6F-0904-431C-89EE-892B8E3C17C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A2AA6F-0904-431C-89EE-892B8E3C17C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A2AA6F-0904-431C-89EE-892B8E3C17C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{47A2AA6F-0904-431C-89EE-892B8E3C17C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A2AA6F-0904-431C-89EE-892B8E3C17C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A2AA6F-0904-431C-89EE-892B8E3C17C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
